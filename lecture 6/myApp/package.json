@@ -1,0 +1,16 @@
+{
+  "name": "lecture-6",
+  "version": "1.0.0",
+  "description": "This is my first node js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon use.js"
+  },
+  "author": "Prakash",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+
+}

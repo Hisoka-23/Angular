@@ -1,0 +1,19 @@
+Inheritance:
+------------
+- Acquiring the properties from parent class to child is called as inheritance
+
+1. Single Inheritance:
+---------------------
+ParentClass
+    | extends -> Is A relationship
+ChildClass 
+
+-------------------------------
+access Modifier
+-------------------------------
+private
+public 
+protected
+----------------------
+1. level -class level / Mothod level / variable level
+2. scope - 
