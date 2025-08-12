@@ -1,0 +1,34 @@
+<!-- <div class="container">
+    <h2 [style.color]="myColor">Welcome to zds infotech</h2>
+
+    <img [src]="location" alt="image is loading ...!">
+
+    <h2 [style.color]="myColor">First Line</h2>
+</div> -->
+
+<div class="container">
+
+    <div class="headerPart">
+        
+        <h1>Welcome To ZDS infotech</h1>
+        <h2 [ngClass]="myClass">Second Line</h2>
+        <hr>
+
+    </div>
+
+    <div class="contentPart">
+        <h1 [style.color]="myColor">First Line</h1>
+        <!-- <h1 [style.color][style.font-size]="myColor">First Line</h1> -->
+        <hr>
+        <!-- Create Button1 -->
+        <!-- Event binding -->
+        <!-- binding element to a event -->
+        <!-- (click)="action1()" -->
+        <button (click)="action1()">Button-1</button>
+        <br>
+        <br>
+        <button (click)="action2()">Button-1</button>
+        <hr>
+    </div>
+
+</div>
