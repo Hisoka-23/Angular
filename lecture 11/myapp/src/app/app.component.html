@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="headerPart">
+    <h2>Header Part</h2>
+  </div>
+
+  <div class="contentPart">
+      <hr>
+      <h2>All The Countries</h2>
+        <ul type="circle" *ngFor="let country of countriesNames">
+          <li>{{country}}</li>
+        </ul>
+      <hr>
+  </div>
+
+  <!-- <div class="contentPart">
+     <div [ngSwitch]="conutryName">
+      <p *ngSwitchCase="'india'">Selected India</p>
+
+      <p *ngSwitchDefault="">Country Name Not Selected Properly</p>
+    </div>
+  </div> -->
+
+  <!-- <div *ngIf="status;then template1;else template2" class="contentPart">
+    <p>Inside the content Part...</p>
+  </div> -->
+
+  <!-- <ng-template #template1>
+    <div class="section1">
+      <h2>Section Part-1</h2>
+    </div>
+  </ng-template>
+
+  <ng-template #template2>
+    <div class="section2">
+      <h2>Section Part-2</h2>
+    </div>
+  </ng-template> -->
+
+  <div class="footerPart">
+    Copywrite-205
+  </div>
+
+</div>
