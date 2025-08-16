@@ -1,0 +1,105 @@
+<div class="container">
+  <div class="headerPart">
+    <h2>Header Part</h2>
+  </div>
+
+  <div class="contentPart">
+    <!-- <div class="selectOption">
+      <h3>Select Countries and Descrive the Details:</h3>
+      <select [(ngModel)]="country">
+        <option></option>
+        <option>India</option>
+        <option>USA</option>
+        <option>China</option>
+      </select>
+
+      <div class="details" [ngSwitch]="country">
+        <p *ngSwitchCase="'India'">
+          Provide the Details of India
+        </p>
+        <p *ngSwitchCase="'USA'">
+          Provide the Details of usa
+        </p>
+        <p *ngSwitchCase="'China'">
+          Provide the Details of china
+        </p>
+        <p *ngSwitchDefault="">
+          Select the country
+        </p>
+      </div>
+    </div> -->
+
+    <!-- <div class="workWithNgFor"> -->
+      <!-- <ul *ngFor="let productName of productName">
+        <li>{{productName}}</li>
+      </ul> -->
+
+      <!-- <table border="1px">
+        <thead>
+          <tr>
+            <th>PID</th>
+            <th>PRICE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.price}}</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+      <!-- <table class="table bg-white">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">PID</th>
+            <th scope="col">PNAME</th>
+            <th scope="col">PIMAGE</th>
+            <th scope="col">PRICE</th>
+            <th scope="col" colspan="2" style="align-items: center;">ACTIONS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products, index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td><img src="{{product.img}}"></td>
+            <td>{{product.price}}</td>
+            <td><button class="btn btn-primary">EDIT</button></td>
+            <td><button class="btn btn-danger">DELETE</button></td>
+          </tr>
+        </tbody>
+      </table> -->
+
+    <!-- </div> -->
+
+    <div class="anyForm">
+      <input type="text" name="item" placeholder="Enter Some Item" #item>
+      <button class="btn btn-primary" (click)="addItem(item)">Add item</button>
+    </div>
+
+    <div class="myData">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let it1 of items, index as i">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{it1.item}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="footerPart">
+    CopyWirte-2025
+  </div>
+</div>
