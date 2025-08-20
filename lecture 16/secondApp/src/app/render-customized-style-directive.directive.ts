@@ -18,6 +18,7 @@ export class RenderCustomizedStyleDirectiveDirective implements OnInit{
     this.render.setStyle(this.e.nativeElement, "color", "red");
     this.render.setStyle(this.e.nativeElement, "font-size", "30px");
     this.render.setStyle(this.e.nativeElement, "text-align", "center");
+    this.render.addClass(this.e.nativeElement, "myclass");
   }
 
 }
