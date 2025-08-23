@@ -1,0 +1,17 @@
+[
+    {
+      "pid":1001,
+      "pname":"Mobile",
+      "price":10000.00
+    },
+    {
+      "pid":1002,
+      "pname":"Laptop",
+      "price":20000.00
+    },
+    {
+      "pid":1003,
+      "pname":"HardDisk",
+      "price":5000.00
+    }
+]
