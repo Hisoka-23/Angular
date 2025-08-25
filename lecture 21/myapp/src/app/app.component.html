@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Form App Component</h2>
+            <hr>
+            Message:{{massage}}
+            <hr>
+            <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Pid</th>
+      <th scope="col">Pname</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products; let i=index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{product.pid}}</td>
+      <td>{{product.pname}}</td>
+      <td>{{product.price}}</td>
+    </tr>
+  </tbody>
+</table>
+            <hr>
+        </div>
+    </div>
+</div>
+
+
+<router-outlet />
