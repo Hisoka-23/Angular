@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Welcome To Template Drive Form</h1>
+        </div>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-12" style="text-align: center;">
+            <h2>FORM</h2>
+            <hr>
+            <form style="margin-left: 40%;" #myForm="ngForm">
+                <table>
+                    <tr>
+                        <td><label for="uname">USER NAME: </label></td>
+                        <td><input type="text" name="fname" [(ngModel)]="fname" required="required" #c1="ngModel"
+                                minlength="3"><br></td>
+                        <td>
+                            <span *ngIf="c2.touched && c2.invalid && c2.errors?.['required']" class="errors">Filed is
+                                Mandtory*</span>
+                        </td>
+                        <td>
+                            <span *ngIf="c2.touched && c2.invalid && c2.errors?.['minlength']" class="errors">minmun
+                                length should be 3*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="uname">USER Password : </label></td>
+                        <td><input type="password" name="fname" [(ngModel)]="pass" required="required" #c2="ngModel"
+                                pattern="^[a-zA-Z0-9]*$"><br></td>
+                        <td>
+                            <span *ngIf="c1.touched && c1.invalid && c1.errors?.['required']" class="errors">Filed is
+                                Mandtory*</span>
+                        </td>
+                        <td>
+                            <span *ngIf="c1.touched && c1.invalid && c1.errors?.['pattern']" class="errors">minmun
+                                length should be 3*
+                            
+                                <ul>
+                                    <li>It is Combination of a-z</li>
+                                    <li>It is Combination of A-Z</li>
+                                    <li>It is Combination of 0-9</li>
+                                </ul>
+                            
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Login" (click)="valid(myForm)">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" style="text-align: center;">
+            First Name: {{fname}}
+        </div>
+    </div>
+</div>
+
+<router-outlet />

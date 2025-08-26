@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Reactive Form</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Form</h2>
+      <form [formGroup]="form" style="margin-left: 40%;">
+        <label for="username">User Name:</label>
+        <input type="text" class="form-control" formControlName="username">
+        <span *ngIf="form.get('username')?.touched && form.get('username')?.hasError?.('required')">UserName is Mandatory</span>
+        <span *ngIf="form.get('username')?.touched && form.get('username')?.hasError?.('pattern')">
+          <ul>
+            <li>It should be in range of a to z</li>
+            <li>It should be in range of A to Z</li>
+            <li>IT should be in range of 1 to 9</li>
+            </ul>
+          </span>
+          <span *ngIf="form.get('username')?.touched && form.get('username')?.hasError?.('minlength')">username should be minimun 3 letter</span>
+          <br>
+          <label for="password">Password:</label>
+        <input type="text" class="form-control" formControlName="password">
+        <span *ngIf="form.get('password')?.touched && form.get('password')?.hasError?.('required')">UserName is Mandatory</span>
+        <span *ngIf="form.get('password')?.touched && form.get('password')?.hasError?.('pattern')">
+          <ul>
+            <li>It should be in range of a to z</li>
+            <li>It should be in range of A to Z</li>
+            <li>IT should be in range of 1 to 9</li>
+            </ul>
+          </span>
+          <span *ngIf="form.get('password')?.touched && form.get('password')?.hasError?.('minlength')">username should be minimun 3 letter</span>
+          <br>
+          <input type="submit" (click)="login()" value="login">
+      </form>
+    </div>
+  </div>
+</div>
+
+<router-outlet />
