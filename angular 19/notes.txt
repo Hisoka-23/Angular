@@ -1,0 +1,20 @@
+data binding ?
+
+how to Declare Variable / state in Component?
+What is Data Binding?
+What is One Way Data Binding?
+	interpolation
+	propertyBinding
+	event binding
+
+What is Two way data Binding ?
+	using ngModel directive
+
+-----------------------------------------
+what is Directive ?
+
+what is Type of Directive ?
+
+What are Structural Directive?
+	*ngIf
+	*ngFor
