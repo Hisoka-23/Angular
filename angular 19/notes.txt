@@ -18,3 +18,16 @@ what is Type of Directive ?
 What are Structural Directive?
 	*ngIf
 	*ngFor
+
+------------------------------------------
+How to add Dynamic class
+How to add Dynamic css 
+What are Attribute Directive
+	[ngClass]
+	[ngClass]
+
+--------------------------------------------
+what is Control flow Statement ?
+From which version we got control flow statement? -Angular 17
+How to use @if, @else if, @else
+How to use @for
