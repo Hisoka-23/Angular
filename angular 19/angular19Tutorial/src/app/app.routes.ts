@@ -1,3 +1,63 @@
 import { Routes } from '@angular/router';
+import { Admin } from './pages/admin/admin';
+import { User } from './pages/user/user';
+import { DataBinding } from './pages/data-binding/data-binding';
+import { NgClass } from '@angular/common';
+import { ControlStatement } from './pages/control-statement/control-statement';
+import { linkedSignal } from '@angular/core';
+import { LinkedSignal } from './pages/linked-signal/linked-signal';
+import { NgFor } from './pages/ng-for/ng-for';
+import { NgIf } from './pages/ng-if/ng-if';
+import { NgStyle } from './pages/ng-style/ng-style';
+import { Signal } from './pages/signal/signal';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+
+    {
+        path : '',
+        redirectTo: 'dataBinding',
+        pathMatch: 'full'
+    },
+    {
+        path:'admin',
+        component: Admin
+    },
+    {
+        path: 'user',
+        component: User
+    },
+    {
+        path: 'dataBinding',
+        component: DataBinding
+    },
+    {
+        path: 'ng-class',
+        component: NgClass
+    },
+    {
+        path: 'control-statement',
+        component: ControlStatement
+    },
+    {
+        path: 'linked-signal',
+        component: LinkedSignal
+    },
+    {
+        path: 'ng-for',
+        component: NgFor
+    },
+    {
+        path: 'ng-if',
+        component: NgIf
+    },
+    {
+        path: 'ng-style',
+        component: NgStyle
+    },
+    {
+        path: 'ng-signal',
+        component: Signal
+    },
+    
+
+];

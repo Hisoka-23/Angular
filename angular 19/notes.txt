@@ -31,3 +31,59 @@ what is Control flow Statement ?
 From which version we got control flow statement? -Angular 17
 How to use @if, @else if, @else
 How to use @for
+
+-------------------------------------------------------------------------------------
+What is Signal ?
+How to create Signal?
+How to Access Signal Value?
+How to Update Signal Value? using set, update method?
+
+--------------------------------------------------------------------------------------
+
+what is Linked signals ?
+How to create Linked signal ?
+What is computation and equal in Linked Signal ?
+
+-------------------------------------------------------------------------------------
+
+what is Routing ?
+How to create Routes ?
+Default Route
+How to do Navigation in Angular?
+what is router-outlet?
+What is RouterLink ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

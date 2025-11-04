@@ -1,14 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { NgIf } from "./pages/ng-if/ng-if";
-import { NgFor } from "./pages/ng-for/ng-for";
-import { NgClass } from "./pages/ng-class/ng-class";
-import { NgStyle } from "./pages/ng-style/ng-style";
-import { ControlStatement } from "./pages/control-statement/control-statement";
+import {  RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NgIf, NgFor, NgClass, NgStyle, ControlStatement],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
