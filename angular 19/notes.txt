@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------------------
 data binding ?
 
 how to Declare Variable / state in Component?
@@ -10,7 +11,7 @@ What is One Way Data Binding?
 What is Two way data Binding ?
 	using ngModel directive
 
------------------------------------------
+------------------------------------------------------------------------------------------------
 what is Directive ?
 
 what is Type of Directive ?
@@ -19,32 +20,32 @@ What are Structural Directive?
 	*ngIf
 	*ngFor
 
-------------------------------------------
+--------------------------------------------------------------------------------------------------
 How to add Dynamic class
 How to add Dynamic css 
 What are Attribute Directive
 	[ngClass]
 	[ngClass]
 
---------------------------------------------
+--------------------------------------------------------------------------------------------------
 what is Control flow Statement ?
 From which version we got control flow statement? -Angular 17
 How to use @if, @else if, @else
 How to use @for
 
--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 What is Signal ?
 How to create Signal?
 How to Access Signal Value?
 How to Update Signal Value? using set, update method?
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 what is Linked signals ?
 How to create Linked signal ?
 What is computation and equal in Linked Signal ?
 
--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 what is Routing ?
 How to create Routes ?
@@ -53,8 +54,25 @@ How to do Navigation in Angular?
 what is router-outlet?
 What is RouterLink ?
 
+--------------------------------------------------------------------------------------------------
 
+Part-10 : Template Form
 
+-Form type in angular?
+-How to create Template Form?
+-How to Validate Template Form?
+-Use of ngModel in Template Form?
+
+--------------------------------------------------------------------------------------------------
+
+Part 11 : Reactive Form
+
+-How to Create Reactive Form?
+-How to validate Reactive Form?
+-What is Form Control?
+-How to Disable Form Control?
+
+--------------------------------------------------------------------------------------------------
 
 
 

@@ -10,6 +10,8 @@ import { NgFor } from './pages/ng-for/ng-for';
 import { NgIf } from './pages/ng-if/ng-if';
 import { NgStyle } from './pages/ng-style/ng-style';
 import { Signal } from './pages/signal/signal';
+import { TemplateForm } from './pages/template-form/template-form';
+import { ReactiveForm } from './pages/reactive-form/reactive-form';
 
 export const routes: Routes = [
 
@@ -57,6 +59,14 @@ export const routes: Routes = [
     {
         path: 'ng-signal',
         component: Signal
+    },
+     {
+        path: 'templateForm',
+        component: TemplateForm
+    },
+    {
+        path: 'reactiveForm',
+        component: ReactiveForm
     },
     
 
