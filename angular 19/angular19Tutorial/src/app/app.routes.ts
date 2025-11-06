@@ -12,6 +12,8 @@ import { NgStyle } from './pages/ng-style/ng-style';
 import { Signal } from './pages/signal/signal';
 import { TemplateForm } from './pages/template-form/template-form';
 import { ReactiveForm } from './pages/reactive-form/reactive-form';
+import { GetApi } from './pages/get-api/get-api';
+import { PostApi } from './pages/post-api/post-api';
 
 export const routes: Routes = [
 
@@ -68,6 +70,13 @@ export const routes: Routes = [
         path: 'reactiveForm',
         component: ReactiveForm
     },
-    
+    {
+        path: 'getApi',
+        component: GetApi
+    },
+    {
+        path: 'postApi',
+        component: PostApi
+    },
 
 ];

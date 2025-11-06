@@ -74,16 +74,46 @@ Part 11 : Reactive Form
 
 --------------------------------------------------------------------------------------------------
 
+	Part-12 : API Call Integration (Get api)
+
+-What is API?
+-What is HttpClient or fetch ?
+-How to Integrate GET API call ?
+-How to Store api Response ?
+-What are Fake API ?
+
+API Method
+	GET => get records
+	POST => to create record
+	PUT => to update existing
+	DELETE => to delete existing
+
+	patch => to update particular record
+
+---------------------------------------------------------------------------------------------------
+
+	Part-13 : API Call Integration (POST API)
+
+-What is POST API ?
+-HOW to Integrate POST API ?
+-POST API with form ?
+
+------------------------------------------------------------------------------------------------------
+
+	Part-14: API Call Integration (PUT API)
+
+-What is PUT API ?
+-How to Integrate PUT API ?
+-How to Update Data ?
 
 
+------------------------------------------------------------------------------------------------------------
+	Part-15: API Call Integration (Delete API)
 
-
-
-
-
-
-
-
+-What is Delete API ?
+-How to Integrate PDelete API?
+-How to Delete Data ?
+-How to show Confirmation Before Deleteting ?
 
 
 
